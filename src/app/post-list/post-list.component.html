@@ -3,10 +3,11 @@
     <div class="col-xs-12">
       <h1><strong>Posts</strong></h1>
       <ul class="list-group">
-        <app-post-list-item titrePost="Mon premier post"></app-post-list-item>
-        <app-post-list-item titrePost="Mon deuxième post"></app-post-list-item>
-        <app-post-list-item titrePost="Encore un post"></app-post-list-item>
+        <app-post-list-item  *ngFor="let post of listPost"
+                             [titrePost]="post.titre" [contenu]="post.content_post" [loveIts]="post.loveItsc"
+                             [postDate]="post.created_at"></app-post-list-item>
       </ul>
     </div>
   </div>
 </div>
+
