@@ -16,7 +16,7 @@ export class AppComponent {
         'est eu mauris posuere facilisis magna, aliquam magna, ut sem vitae eget. Curabitur quam, nullam' +
         ' dictum sed viverra nullam dis dui,' +
         ' odio purus wisi. Elit dui quam in nec tortor, pretium ea ex et eros a.',
-      loveItsc: 6
+      loveItsc: 0
     },
     {
       titre: 'Mon deuxième post',
@@ -24,14 +24,14 @@ export class AppComponent {
       content_post: ' Nulla magna, arcu vestibulum unde, augue adipiscing scelerisque tincidun' +
         't donec rutrum, vestibulum mattis phasellus,' +
       ' non lacus. Sit nulla wisi at condimentum ut nostra.',
-      loveItsc: 6
+      loveItsc: 0
     },
     {
       titre: 'Encore un post',
         created_at: new Date(),
       content_post: 'In nibh praesent mauris et nulla, est eu mauris posuere facilisis magna, aliquam magna, ut sem vitae eget.' +
     ' Curabitur quam, nullam dictum sed viverra nullam dis dui, odio purus wisi. Elit dui quam in nec tortor, pretium ea ex et eros a.',
-      loveItsc: 6
+      loveItsc: 0
     }
     ];
 
